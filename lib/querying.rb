@@ -15,11 +15,7 @@ end
 def select_name_and_series_subgenres_of_authors
   "SELECT name, subgenres.name FROM authors JOIN subgenres ON authors.id = subgenres_id"
 end
-SELECT column(s)
-FROM table_one
-INNER JOIN table_two
-ON table_one.column_name = table_two.column_name
-WHERE table_two.column_name = condition;
+
 def select_series_title_with_most_human_characters
   "Write your SQL query here"
 end
