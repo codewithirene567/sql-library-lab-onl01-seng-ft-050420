@@ -1,1 +1,1 @@
-UPDATE [character] SET [species] = ['Martian'] WHERE [species] = ['human'];
+UPDATE [characters] SET [species] = ['Martian'] WHERE [species] = ['human'];
