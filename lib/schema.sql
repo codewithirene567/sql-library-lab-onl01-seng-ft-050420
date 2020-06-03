@@ -21,7 +21,7 @@ CREATE TABLE Books (
                 year INTEGER,
                 series INTEGER
             );
-            
+
 CREATE TABLE Characters (
         id INTEGER PRIMARY KEY,
                 name TEXT,
