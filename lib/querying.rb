@@ -7,11 +7,7 @@ def select_name_and_motto_of_char_with_longest_motto
   "SELECT characters.name, characters.motto FROM characters ORDER BY LENGTH(motto) DESC LIMIT 1"
 end
 
-SELECT column(s)
-FROM table_one
-INNER JOIN table_two
-ON table_one.column_name = table_two.column_name
-WHERE table_two.column_name = condition;
+
 
 def select_value_and_count_of_most_prolific_species
   "Write your SQL query here"
