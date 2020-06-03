@@ -7,18 +7,19 @@ CREATE TABLE Series (
 
 CREATE TABLE Sub_Genres (
         id INTEGER PRIMARY KEY,
-                name TEXT,
-                age INTEGER
+                name TEXT
             );
+
 CREATE TABLE Authors (
         id INTEGER PRIMARY KEY,
-                name TEXT,
-                age INTEGER
+                name TEXT
             );
+
 CREATE TABLE Books (
         id INTEGER PRIMARY KEY,
-                name TEXT,
-                age INTEGER
+                title TEXT,
+                year INTEGER,
+                series INTEGER
             );
 CREATE TABLE Characters (
         id INTEGER PRIMARY KEY,
