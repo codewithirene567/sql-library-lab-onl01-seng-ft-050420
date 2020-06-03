@@ -13,7 +13,7 @@ def select_value_and_count_of_most_prolific_species
 end
 
 def select_name_and_series_subgenres_of_authors
-  "SELECT name, series_subgenres FROM authors JOIN subgenres ON authors.id = subgenres_id"
+  "SELECT name, subgenres FROM authors JOIN subgenres ON authors.id = subgenres_id"
 end
 SELECT column(s)
 FROM table_one
