@@ -7,3 +7,4 @@ INSERT INTO characters (id, name, motto, species, author_id) VALUES (1, "Lady", 
 (5, "John Wade", "I can do it", "human", 1), (6, "Sam Smith", "You are great", "human", 1), (7, "Hugo Barnes", "Amazing work", "human", 1),
 (8, "Last one", "I am last", "human", 1);
 INSERT INTO subgenres (id, name) VALUES (1, "medieval"), (2, "space opera");
+INSERT INTO authors (id, name) VALUES (1, "George R. R. Martin"), (2, "Second Author");
